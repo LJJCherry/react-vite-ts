@@ -6,7 +6,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "cypress:run": "cypress run --config video=false --component"
+    "cypress:run": "cypress run --config video=false --component",
+    "test:update": "cypress-image-diff -u"
   },
   "dependencies": {
     "cypress-image-diff-js": "^1.23.0",
