@@ -9,6 +9,7 @@
     "cypress:run": "cypress run --config video=false --component"
   },
   "dependencies": {
+    "cypress-image-diff-js": "^1.23.0",
     "cypress-visual-regression": "^2.1.0",
     "install": "^0.13.0",
     "msw": "^0.39.2",

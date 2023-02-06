@@ -20,6 +20,7 @@ import './commands'
 // require('./commands')
 
 import { mount } from 'cypress/react'
+import compareSnapshotCommand from 'cypress-image-diff-js/dist/command';
 // Ensure global app styles are loaded:
 import '../../src/index.css';
 
@@ -36,6 +37,8 @@ declare global {
 }
 
 Cypress.Commands.add('mount', mount)
+
+compareSnapshotCommand();
 
 // Example use:
 // cy.mount(<MyComponent />)

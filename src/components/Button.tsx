@@ -27,7 +27,7 @@ const Button: React.FC<ButtonProps> = (props) => {
             `}
       {...rest}
     >
-      {children}
+      Test 2
     </button>
   );
 };
